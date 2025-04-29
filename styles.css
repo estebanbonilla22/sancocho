@@ -1,0 +1,44 @@
+body {
+    font-family: 'Comic Sans MS';
+    background: #ffeaa7;
+    color: #2d3436;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #d63031;
+    animation: jump 1s infinite alternate;
+}
+
+@keyframes jump {
+    from { transform: translateY(0); }
+    to { transform: translateY(-15px); }
+}
+
+#log {
+    background: #ffe;
+    border: 2px dashed #fdcb6e; 
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 1em;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #019875;
+}
